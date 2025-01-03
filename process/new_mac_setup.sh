@@ -39,6 +39,7 @@ brew install --cask notion-calendar
 brew install --cask obsidian
 brew install --cask plexamp
 brew install --cask raycast
+brew install --cask reflect
 brew install rsync
 brew install --cask slack
 brew install --cask snagit
