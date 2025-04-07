@@ -5,6 +5,21 @@
 - [GAM Wiki](https://github.com/GAM-team/GAM/wiki)
 - [GAMADV-XTD3 Wiki](https://github.com/taers232c/GAMADV-XTD3/wiki)
 
+## Prerequisites
+
+Before using any GAM tools, ensure that GAM is installed and properly configured:
+
+1. Using pip:
+```bash
+pip install gam
+```
+
+2. Manual installation:
+   - Download from: https://github.com/GAM-team/GAM/releases
+   - Follow instructions at: https://github.com/GAM-team/GAM/wiki/How-to-Install-Advanced-GAM
+
+Make sure GAM is in your PATH and properly configured before using the tools.
+
 ## Tools
 
 ### OOO Message Setup Tool (`set_ooo.sh`)
@@ -17,6 +32,7 @@ A user-friendly tool for setting up Gmail Out-of-Office messages for departed em
 - Email format validation
 - Message preview before setting
 - Confirmation prompt
+- Automatic GAM installation check
 
 #### Usage
 

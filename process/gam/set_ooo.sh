@@ -1,5 +1,21 @@
 #!/bin/bash
 
+# Check if GAM is installed
+if ! command -v gam &> /dev/null; then
+    echo "Error: GAM is not installed or not in PATH"
+    echo
+    echo "Please install GAM using one of these methods:"
+    echo "1. Using pip:"
+    echo "   pip install gam"
+    echo
+    echo "2. Manual installation:"
+    echo "   - Download from: https://github.com/GAM-team/GAM/releases"
+    echo "   - Follow instructions at: https://github.com/GAM-team/GAM/wiki/How-to-Install-Advanced-GAM"
+    echo
+    echo "After installation, make sure GAM is in your PATH and properly configured."
+    exit 1
+fi
+
 # Function to display usage information
 show_usage() {
     echo "Usage: $0 [options]"
